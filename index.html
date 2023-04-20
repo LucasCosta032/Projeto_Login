@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-section">
+        <div class="formbox login">
+            <form action="">
+
+                <h2>Login</h2>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-envelope'></i>
+                    </span>
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-lock-alt'></i>
+                    </span>
+                    <input type="password" required>
+                    <label for="">Senha</label>
+                </div>
+                <div class="remmeber-password">
+                    <label for=""><input type="checkbox" name="" id="">Lembrar Me</label>
+                    <a href="#">Esqueceu a Senha?</a>
+                </div>
+                <button class="btn">Login In</button>
+                <div class="create-account">
+                    <p>Ainda não tem uma conta?<a href="#" class="register-link">  Registrar Me</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="formbox register">
+            <form action="">
+
+                <h2>Registrar Me</h2>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-envelope'></i>
+                    </span>
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-lock-alt'></i>
+                    </span>
+                    <input type="password" required>
+                    <label for="">Senha</label>
+                </div>     
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-lock-alt'></i>
+                    </span>
+                    <input type="password" required>
+                    <label for="">Confirmar Senha</label>
+                </div>          
+                <button class="btn">Registrar</button>
+                <div class="create-account">
+                    <p>Já possui uma conta?<a href="#" class="login-link">  Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
